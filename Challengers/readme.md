@@ -19,7 +19,8 @@ Challenge 1: Find the length of the longest substring that contains at most k di
 Challenge 2: Find the maximum product of any two distinct elements in the array.
 Challenge 3: Find the longest subarray with a sum that equals a given target value.
 Challenge 4: Returns a score indicating the strength of the password
-Challenge 5: ???
+Challenge 5: Palindrome Permutation
+Challenge 6: ???
 
 ## Contributing
 If you would like to contribute to this repository, feel free to submit a pull request with your changes. Before submitting a pull request, please make sure that your code follows the same structure and conventions as the existing code in the repository.
