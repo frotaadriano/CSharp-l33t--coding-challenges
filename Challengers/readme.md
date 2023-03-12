@@ -1,4 +1,4 @@
-# .NET 7 Solution with C# Challenge Codes
+# .NET 7 Solution with C# Challenge Codes.
 
 This repository contains a `.NET 7` solution with several `C#` challenge codes.
 
