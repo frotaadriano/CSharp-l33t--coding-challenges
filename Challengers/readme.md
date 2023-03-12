@@ -7,9 +7,10 @@ This repository contains a `.NET 7` solution with several `C#` challenge codes.
 To get started, you will need to clone the repository to your local machine. You can do this using the following command:
 
 ```bash
-git clone https://github.com/frotaadriano/Challenge>
+git clone https://github.com/frotaadriano/CSharp-l33t--coding-challenges>
 
 Once you have cloned the repository, you can open the .NET solution file in Visual Studio. From there, you can build and run the code to see the results of each challenge.
+```
 
 ## Challenges
 The challenges in this repository are organized into separate C# files, each with its own unique problem statement and solution. Here is a list of the challenges included in this solution:
