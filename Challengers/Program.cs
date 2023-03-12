@@ -32,10 +32,6 @@ Console.WriteLine($" Challenger 4 :{JsonConvert.SerializeObject(response2)}");
 //Console.WriteLine($" Challenger 5 : { }");
 //Console.WriteLine($" Challenger 5 opt : { }");
 #endregion
-
-#region Challenger 6 
-//Console.WriteLine($" Challenger 6 : { }");
-//Console.WriteLine($" Challenger 6 opt : { }");
-#endregion
+ 
 
 Console.ReadKey();
