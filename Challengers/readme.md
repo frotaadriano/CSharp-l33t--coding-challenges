@@ -20,7 +20,10 @@ Challenge 2: Find the maximum product of any two distinct elements in the array.
 Challenge 3: Find the longest subarray with a sum that equals a given target value.
 Challenge 4: Returns a score indicating the strength of the password
 Challenge 5: Palindrome Permutation
-Challenge 6: ???
+Challenge 6: Vowel Count
+Challenge 7: Anagram Checker 
+Challenge 8: FizzBuzz
+Challenge 9: Phone Number Formatter
 
 ## Contributing
 If you would like to contribute to this repository, feel free to submit a pull request with your changes. Before submitting a pull request, please make sure that your code follows the same structure and conventions as the existing code in the repository.

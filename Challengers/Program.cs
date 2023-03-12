@@ -44,15 +44,11 @@ using Newtonsoft.Json;
 #region Challenger 8 - FizzBuzz
 //FizzBuzz.ShowFizzBuzz();  
 #endregion
-
-#region Challenger 9 - 
+#region Challenger 9 - Phone Number Formatter
 Console.WriteLine($" Challenger 9  \"123-456-7890\"...: {PhoneNumberFormatter.GetPhoneNumberFormatter("123-456-7890")}");
 Console.WriteLine($" Challenger 9  \"123 456 7890\"...: {PhoneNumberFormatter.GetPhoneNumberFormatter("123 456 7890")}");
 Console.WriteLine($" Challenger 9  \"1234567890\"...: {PhoneNumberFormatter.GetPhoneNumberFormatter("1234567890")}");
 Console.WriteLine($" Challenger 9  \"12-345-67-890\"...: {PhoneNumberFormatter.GetPhoneNumberFormatter("12-345-67-890")}");
-
-
-
 
 //Input: "123-456-7890"
 //Output: (123) 456 - 7890
