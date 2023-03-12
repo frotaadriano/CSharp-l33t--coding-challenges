@@ -15,11 +15,12 @@ Once you have cloned the repository, you can open the .NET solution file in Visu
 ## Challenges
 The challenges in this repository are organized into separate C# files, each with its own unique problem statement and solution. Here is a list of the challenges included in this solution:
  
-Challenge 1: Find the length of the longest substring that contains at most k distinct characters.
-Challenge 2: Find the maximum product of any two distinct elements in the array.
-Challenge 3: Find the longest subarray with a sum that equals a given target value.
-Challenge 4: Returns a score indicating the strength of the password
-Challenge 5: ???
+- Challenge 1: Find the length of the longest substring that contains at most k distinct characters.
+- Challenge 2: Find the maximum product of any two distinct elements in the array.
+- Challenge 3: Find the longest subarray with a sum that equals a given target value.
+- Challenge 4: Returns a score indicating the strength of the password.
+- Challenge 5: ???
+
 
 ## Contributing
 If you would like to contribute to this repository, feel free to submit a pull request with your changes. Before submitting a pull request, please make sure that your code follows the same structure and conventions as the existing code in the repository.
