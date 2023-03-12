@@ -19,7 +19,11 @@ The challenges in this repository are organized into separate C# files, each wit
 - Challenge 2: Find the maximum product of any two distinct elements in the array.
 - Challenge 3: Find the longest subarray with a sum that equals a given target value.
 - Challenge 4: Returns a score indicating the strength of the password.
-- Challenge 5: ???
+- Challenge 5: Palindrome Permutation
+- Challenge 6: Vowel Count
+- Challenge 7: Anagram Checker 
+- Challenge 8: FizzBuzz
+- Challenge 9: Phone Number Formatter
 
 
 ## Contributing
