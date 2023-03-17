@@ -29,8 +29,14 @@ The challenges in this repository are organized into separate C# files, each wit
 - Challenger 12: Second Largest Number
 - Challenger 13: Caesar Cipher
 - Challenger 14: Binary to Decimal Converter
-- Challenger 15: 
-- Challenger 16: 
+- Challenger 15: Perfect Number (Easy)
+- Challenger 16: Reverse Words (Easy)
+- Challenger 17: Armstrong Number (Easy)
+- Challenger 18: 
+- Challenger 19: 
+- Challenger 20: 
+- Challenger 21: 
+
 
 ## Contributing
 If you would like to contribute to this repository, feel free to submit a pull request with your changes. Before submitting a pull request, please make sure that your code follows the same structure and conventions as the existing code in the repository.

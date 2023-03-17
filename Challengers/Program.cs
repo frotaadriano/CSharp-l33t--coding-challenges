@@ -3,6 +3,12 @@ using Challengers;
 using System.Text.Json.Nodes;
 using System.Text.Json.Serialization;
 using Newtonsoft.Json;
+using System.Diagnostics;
+using System;
+
+// create a new Stopwatch object
+Stopwatch stopwatch = new Stopwatch();
+
 
 #region Challenger 1 - Substring
 // Console.WriteLine($" Challenger 1 : {Substring01.LongestSubstring("ABCVKkkVKoiuy", 2)}");
@@ -81,11 +87,94 @@ using Newtonsoft.Json;
 #endregion
 
 #region Challenger 14 - Binary to Decimal Converter (Easy)
-Console.WriteLine($" Challenger 14 ...: {BinaryToDecimalConverter.Execute("1101")}");
+//Console.WriteLine($" Challenger 14 ...: {BinaryToDecimalConverter.Execute("1101")}");
+
+#endregion
+#region Challenger 15 - Binary to Decimal Converter (Easy)
+//Console.WriteLine($" Challenger 15 ...: {PerfectNumber.IsPerfectNumber(0)}"); // N
+//Console.WriteLine($" Challenger 15 ...: {PerfectNumber.IsPerfectNumber(1)}"); // N
+//Console.WriteLine($" Challenger 15 ...: {PerfectNumber.IsPerfectNumber(2)}"); // N
+//Console.WriteLine($" Challenger 15 ...: {PerfectNumber.IsPerfectNumber(3)}"); // N
+//Console.WriteLine($" Challenger 15 ...: {PerfectNumber.IsPerfectNumber(4)}"); // N
+//Console.WriteLine($" Challenger 15 ...: {PerfectNumber.IsPerfectNumber(5)}"); // N
+//Console.WriteLine($" Challenger 15 ...: {PerfectNumber.IsPerfectNumber(6)}"); // Y
+//Console.WriteLine($" Challenger 15 ...: {PerfectNumber.IsPerfectNumber(10)}"); // N
+//Console.WriteLine($" Challenger 15 ...: {PerfectNumber.IsPerfectNumber(28)}"); // Y
+#endregion
+
+#region Challenger 16 - Reverse Words (Easy)
+//var longText = "There are several ways to measure the performance of two different solutions and determine which one is better. " +
+//    "Here are some common methods: " +
+//    "1. Execution time: You can measure the time it takes for each solution to complete the task. " +
+//    "2. You can use the Stopwatch class in C# to measure the execution time of each method." +
+//    "3. Memory usage: You can measure the amount of memory each solution uses. You can use a memory profiler tool to analyze the memory " +
+//    " usage of each method." +
+//    "4. Complexity analysis: You can analyze the time and space complexity of each solution. " +
+//    " You can use Big O notation to describe the time and space complexity of each method." +
+//    "Testing: You can create a set of test cases that cover different scenarios and run them against each solution. " +
+//    "You can compare the results and determine which solution is better in terms of accuracy and correctness." +
+//    "By using one or more of these methods, you can measure the performance of different solutions and choose the one " +
+//    "that works best for your requirements.";
+
+//// Making the text big 
+//longText += longText;
+//longText += longText;
+//longText += longText;
+//longText += longText;
+//longText += longText;
+//longText += longText;
+//longText += longText;
+
+////Console.WriteLine($" Challenger 16 ...: {ReverseWords.GenerateReverseWords(longText)}");
+////Console.WriteLine($" Challenger 16 ...: {ReverseWords.ReverseStringOptmized(longText)}");
+
+//Console.WriteLine($"\nChallenger 16 | ReverseWords |");
+//stopwatch.Start();
+//ReverseWords.GenerateReverseWords(longText);
+//stopwatch.Stop();
+//Console.WriteLine($"  Memory usage...: {Process.GetCurrentProcess().PrivateMemorySize64 / 1024} Kbytes");
+//Console.WriteLine($"  Elapsed time...: {stopwatch.Elapsed.TotalMilliseconds} ms");
+//stopwatch.Reset();
+
+
+//Console.WriteLine($"\nChallenger 16 | ReverseStringOptmized |");
+//stopwatch.Start();
+//ReverseWords.ReverseStringOptmized(longText);
+//stopwatch.Stop();
+//Console.WriteLine($"  Memory usage...: {Process.GetCurrentProcess().PrivateMemorySize64 / 1024} Kbytes");
+//Console.WriteLine($"  Elapsed time...: {stopwatch.Elapsed.TotalMilliseconds} ms");
+//stopwatch.Reset();
 
 
 #endregion
 
+#region Challenger 17 - Armstrong Number
+Console.WriteLine($" Challenger 17 ...: {ArmstrongNumber.IsArmstrongNumber("")}");
+Console.WriteLine($" Challenger 17 ...: {ArmstrongNumber.IsArmstrongNumber("0")}");
+Console.WriteLine($" Challenger 17 ...: {ArmstrongNumber.IsArmstrongNumber("-1")}");
+Console.WriteLine($" Challenger 17 ...: {ArmstrongNumber.IsArmstrongNumber("nop")}");
+Console.WriteLine($" Challenger 17 ...: {ArmstrongNumber.IsArmstrongNumber("153")}");
+Console.WriteLine($" Challenger 17 ...: {ArmstrongNumber.IsArmstrongNumber("9474")}");
+Console.WriteLine($" Challenger 17 ...: {ArmstrongNumber.IsArmstrongNumber("123")}");
 
+Console.WriteLine($" Challenger 17 (opt)...: {ArmstrongNumber.IsArmstrongNumberOptmized(0)}");
+Console.WriteLine($" Challenger 17 (opt)...: {ArmstrongNumber.IsArmstrongNumberOptmized(-1)}");
+Console.WriteLine($" Challenger 17 (opt)...: {ArmstrongNumber.IsArmstrongNumberOptmized(153)}");
+Console.WriteLine($" Challenger 17 (opt)...: {ArmstrongNumber.IsArmstrongNumberOptmized(9474)}");
+Console.WriteLine($" Challenger 17 (opt)...: {ArmstrongNumber.IsArmstrongNumberOptmized(123)}");
+
+
+Example:
+///  Input: 153
+///  Output: "Armstrong Number" 
+///  
+///  Input: 9474
+///  Output: "Armstrong Number" 
+/// 
+///  Input: 123
+///  Output: "Not Armstrong Number"
+///  
+
+#endregion
 
 Console.ReadKey();
