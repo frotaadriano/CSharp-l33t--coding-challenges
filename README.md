@@ -24,7 +24,13 @@ The challenges in this repository are organized into separate C# files, each wit
 - Challenge 7: Anagram Checker 
 - Challenge 8: FizzBuzz
 - Challenge 9: Phone Number Formatter
-
+- Challenger 10: Sum of Primes
+- Challenger 11: Number of words
+- Challenger 12: Second Largest Number
+- Challenger 13: Caesar Cipher
+- Challenger 14: Binary to Decimal Converter
+- Challenger 15: 
+- Challenger 16: 
 
 ## Contributing
 If you would like to contribute to this repository, feel free to submit a pull request with your changes. Before submitting a pull request, please make sure that your code follows the same structure and conventions as the existing code in the repository.

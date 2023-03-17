@@ -45,10 +45,10 @@ using Newtonsoft.Json;
 //FizzBuzz.ShowFizzBuzz();  
 #endregion
 #region Challenger 9 - Phone Number Formatter
-Console.WriteLine($" Challenger 9  \"123-456-7890\"...: {PhoneNumberFormatter.GetPhoneNumberFormatter("123-456-7890")}");
-Console.WriteLine($" Challenger 9  \"123 456 7890\"...: {PhoneNumberFormatter.GetPhoneNumberFormatter("123 456 7890")}");
-Console.WriteLine($" Challenger 9  \"1234567890\"...: {PhoneNumberFormatter.GetPhoneNumberFormatter("1234567890")}");
-Console.WriteLine($" Challenger 9  \"12-345-67-890\"...: {PhoneNumberFormatter.GetPhoneNumberFormatter("12-345-67-890")}");
+//Console.WriteLine($" Challenger 9  \"123-456-7890\"...: {PhoneNumberFormatter.GetPhoneNumberFormatter("123-456-7890")}");
+//Console.WriteLine($" Challenger 9  \"123 456 7890\"...: {PhoneNumberFormatter.GetPhoneNumberFormatter("123 456 7890")}");
+//Console.WriteLine($" Challenger 9  \"1234567890\"...: {PhoneNumberFormatter.GetPhoneNumberFormatter("1234567890")}");
+//Console.WriteLine($" Challenger 9  \"12-345-67-890\"...: {PhoneNumberFormatter.GetPhoneNumberFormatter("12-345-67-890")}");
 
 //Input: "123-456-7890"
 //Output: (123) 456 - 7890
@@ -61,18 +61,31 @@ Console.WriteLine($" Challenger 9  \"12-345-67-890\"...: {PhoneNumberFormatter.G
 
 //Input: "12-345-67-890"
 //Output: null
+#endregion
+#region Challenger 10 - Sum of Primes
+//Console.WriteLine($" Challenger 10  ...: {SumOfPrimes.GetResult(10)}");
+#endregion
+
+#region Challenger 11 - Number Of Words
+// Console.WriteLine($" Challenger 11  ...: { NumberOfWords.GetNumberOfWords("This is an app to count the words!")}");
+#endregion
+
+#region Challenger 12 - Second Largest Number
+//Console.WriteLine($" Challenger 12  ...: {SecondLargestNumber.Get(new int[] { 1, 2, 10, 4, 5 }) }");
+#endregion
+
+#region Challenger 13 - Caesar Cipher (Intermediate)
+//Console.WriteLine($" Challenger 13 ...: {CaesarCipher.Get("W", 7)}");
+////    CaesarCipher.Encrypt("HELLO WORLD", 7);
+
+#endregion
+
+#region Challenger 14 - Binary to Decimal Converter (Easy)
+Console.WriteLine($" Challenger 14 ...: {BinaryToDecimalConverter.Execute("1101")}");
 
 
 #endregion
 
-//#region Challenger 10 - 
-//Console.WriteLine($" Challenger 10  ...: { }");
 
-//#endregion
-
-//#region Challenger 11 - 
-//Console.WriteLine($" Challenger 11  ...: { }");
-
-//#endregion
 
 Console.ReadKey();
