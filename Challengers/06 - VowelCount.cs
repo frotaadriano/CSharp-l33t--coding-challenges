@@ -22,14 +22,15 @@ namespace Challengers
             VowelCount("I am groot") ➞ 3
 
          */
+        public const string VOWELS = "aeiou";
+
         public static int GetVowelCount(string word)
         {
             var counter = 0;
-            word = word.ToLower();
-            var vowels = "aeiou"; 
+            word = word.ToLower(); 
             foreach (var c in word)
             {
-                if (vowels.Contains(c))
+                if (VOWELS.Contains(c))
                 {
                     counter++;
                 }
