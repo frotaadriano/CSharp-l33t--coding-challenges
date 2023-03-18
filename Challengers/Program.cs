@@ -149,32 +149,45 @@ Stopwatch stopwatch = new Stopwatch();
 #endregion
 
 #region Challenger 17 - Armstrong Number
-Console.WriteLine($" Challenger 17 ...: {ArmstrongNumber.IsArmstrongNumber("")}");
-Console.WriteLine($" Challenger 17 ...: {ArmstrongNumber.IsArmstrongNumber("0")}");
-Console.WriteLine($" Challenger 17 ...: {ArmstrongNumber.IsArmstrongNumber("-1")}");
-Console.WriteLine($" Challenger 17 ...: {ArmstrongNumber.IsArmstrongNumber("nop")}");
-Console.WriteLine($" Challenger 17 ...: {ArmstrongNumber.IsArmstrongNumber("153")}");
-Console.WriteLine($" Challenger 17 ...: {ArmstrongNumber.IsArmstrongNumber("9474")}");
-Console.WriteLine($" Challenger 17 ...: {ArmstrongNumber.IsArmstrongNumber("123")}");
+//Console.WriteLine($" Challenger 17 ...: {ArmstrongNumber.IsArmstrongNumber("")}");
+//Console.WriteLine($" Challenger 17 ...: {ArmstrongNumber.IsArmstrongNumber("0")}");
+//Console.WriteLine($" Challenger 17 ...: {ArmstrongNumber.IsArmstrongNumber("-1")}");
+//Console.WriteLine($" Challenger 17 ...: {ArmstrongNumber.IsArmstrongNumber("nop")}");
+//Console.WriteLine($" Challenger 17 ...: {ArmstrongNumber.IsArmstrongNumber("153")}");
+//Console.WriteLine($" Challenger 17 ...: {ArmstrongNumber.IsArmstrongNumber("9474")}");
+//Console.WriteLine($" Challenger 17 ...: {ArmstrongNumber.IsArmstrongNumber("123")}");
 
-Console.WriteLine($" Challenger 17 (opt)...: {ArmstrongNumber.IsArmstrongNumberOptmized(0)}");
-Console.WriteLine($" Challenger 17 (opt)...: {ArmstrongNumber.IsArmstrongNumberOptmized(-1)}");
-Console.WriteLine($" Challenger 17 (opt)...: {ArmstrongNumber.IsArmstrongNumberOptmized(153)}");
-Console.WriteLine($" Challenger 17 (opt)...: {ArmstrongNumber.IsArmstrongNumberOptmized(9474)}");
-Console.WriteLine($" Challenger 17 (opt)...: {ArmstrongNumber.IsArmstrongNumberOptmized(123)}");
-
-
-Example:
-///  Input: 153
-///  Output: "Armstrong Number" 
-///  
-///  Input: 9474
-///  Output: "Armstrong Number" 
-/// 
-///  Input: 123
-///  Output: "Not Armstrong Number"
-///  
+//Console.WriteLine($" Challenger 17 (opt)...: {ArmstrongNumber.IsArmstrongNumberOptmized(0)}");
+//Console.WriteLine($" Challenger 17 (opt)...: {ArmstrongNumber.IsArmstrongNumberOptmized(-1)}");
+//Console.WriteLine($" Challenger 17 (opt)...: {ArmstrongNumber.IsArmstrongNumberOptmized(153)}");
+//Console.WriteLine($" Challenger 17 (opt)...: {ArmstrongNumber.IsArmstrongNumberOptmized(9474)}");
+//Console.WriteLine($" Challenger 17 (opt)...: {ArmstrongNumber.IsArmstrongNumberOptmized(123)}");
+////Example:
+/////  Input: 153
+/////  Output: "Armstrong Number" 
+/////  
+/////  Input: 9474
+/////  Output: "Armstrong Number" 
+///// 
+/////  Input: 123
+/////  Output: "Not Armstrong Number"
+/////  
 
 #endregion
+#region Challenger 18 - Fibonacci (Easy)
+//Console.WriteLine($" Challenger 18 ...: {Fibonacci.GetFiboInSequence(6)}");
+#endregion
+#region Challenger 19 - Pangram Checker (Intermediate)
+var phaseTrue = "The quick brown fox jumps over the lazy dog.";
+var phaseFalse = "This is not a pangram.";
+
+//Console.WriteLine($" Challenger 19 ...: {Pangram.IsPangram(phaseTrue)}");
+//Console.WriteLine($" Challenger 19 ...: {Pangram.IsPangram(phaseFalse)}");
+
+var phaseTrueOpt = "TTThe quick brown fox jumps over the lazy dog.aaaaaaaaaaa";
+Console.WriteLine($" Challenger 19 ...: {Pangram.IsPangramOptmized(phaseTrueOpt)}");
+
+#endregion
+
 
 Console.ReadKey();

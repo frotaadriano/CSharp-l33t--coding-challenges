@@ -32,8 +32,8 @@ The challenges in this repository are organized into separate C# files, each wit
 - Challenger 15: Perfect Number (Easy)
 - Challenger 16: Reverse Words (Easy)
 - Challenger 17: Armstrong Number (Easy)
-- Challenger 18: 
-- Challenger 19: 
+- Challenger 18: Fibonacci Sequence (Easy)
+- Challenger 19: Pangram Checker (Intermediate)
 - Challenger 20: 
 - Challenger 21: 
 
