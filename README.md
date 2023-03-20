@@ -34,9 +34,9 @@ The challenges in this repository are organized into separate C# files, each wit
 - Challenger 17: Armstrong Number (Easy)
 - Challenger 18: Fibonacci Sequence (Easy)
 - Challenger 19: Pangram Checker (Intermediate)
-- Challenger 20: 
-- Challenger 21: 
-
+- Challenger 20: Valid Parentheses (Intermediate)
+- Challenger 21: Next Greater Element I
+- Challenger 22: 
 
 ## Contributing
 If you would like to contribute to this repository, feel free to submit a pull request with your changes. Before submitting a pull request, please make sure that your code follows the same structure and conventions as the existing code in the repository.

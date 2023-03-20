@@ -5,9 +5,18 @@ using System.Text.Json.Serialization;
 using Newtonsoft.Json;
 using System.Diagnostics;
 using System;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 // create a new Stopwatch object
 Stopwatch stopwatch = new Stopwatch();
+
+
+
+
+
+
+
+
 
 
 #region Challenger 1 - Substring
@@ -71,21 +80,17 @@ Stopwatch stopwatch = new Stopwatch();
 #region Challenger 10 - Sum of Primes
 //Console.WriteLine($" Challenger 10  ...: {SumOfPrimes.GetResult(10)}");
 #endregion
-
 #region Challenger 11 - Number Of Words
 // Console.WriteLine($" Challenger 11  ...: { NumberOfWords.GetNumberOfWords("This is an app to count the words!")}");
 #endregion
-
 #region Challenger 12 - Second Largest Number
 //Console.WriteLine($" Challenger 12  ...: {SecondLargestNumber.Get(new int[] { 1, 2, 10, 4, 5 }) }");
 #endregion
-
 #region Challenger 13 - Caesar Cipher (Intermediate)
 //Console.WriteLine($" Challenger 13 ...: {CaesarCipher.Get("W", 7)}");
 ////    CaesarCipher.Encrypt("HELLO WORLD", 7);
 
 #endregion
-
 #region Challenger 14 - Binary to Decimal Converter (Easy)
 //Console.WriteLine($" Challenger 14 ...: {BinaryToDecimalConverter.Execute("1101")}");
 
@@ -101,7 +106,6 @@ Stopwatch stopwatch = new Stopwatch();
 //Console.WriteLine($" Challenger 15 ...: {PerfectNumber.IsPerfectNumber(10)}"); // N
 //Console.WriteLine($" Challenger 15 ...: {PerfectNumber.IsPerfectNumber(28)}"); // Y
 #endregion
-
 #region Challenger 16 - Reverse Words (Easy)
 //var longText = "There are several ways to measure the performance of two different solutions and determine which one is better. " +
 //    "Here are some common methods: " +
@@ -147,7 +151,6 @@ Stopwatch stopwatch = new Stopwatch();
 
 
 #endregion
-
 #region Challenger 17 - Armstrong Number
 //Console.WriteLine($" Challenger 17 ...: {ArmstrongNumber.IsArmstrongNumber("")}");
 //Console.WriteLine($" Challenger 17 ...: {ArmstrongNumber.IsArmstrongNumber("0")}");
@@ -178,16 +181,29 @@ Stopwatch stopwatch = new Stopwatch();
 //Console.WriteLine($" Challenger 18 ...: {Fibonacci.GetFiboInSequence(6)}");
 #endregion
 #region Challenger 19 - Pangram Checker (Intermediate)
-var phaseTrue = "The quick brown fox jumps over the lazy dog.";
-var phaseFalse = "This is not a pangram.";
+//var phaseTrue = "The quick brown fox jumps over the lazy dog.";
+//var phaseFalse = "This is not a pangram.";
 
-//Console.WriteLine($" Challenger 19 ...: {Pangram.IsPangram(phaseTrue)}");
-//Console.WriteLine($" Challenger 19 ...: {Pangram.IsPangram(phaseFalse)}");
+////Console.WriteLine($" Challenger 19 ...: {Pangram.IsPangram(phaseTrue)}");
+////Console.WriteLine($" Challenger 19 ...: {Pangram.IsPangram(phaseFalse)}");
 
-var phaseTrueOpt = "TTThe quick brown fox jumps over the lazy dog.aaaaaaaaaaa";
-Console.WriteLine($" Challenger 19 ...: {Pangram.IsPangramOptmized(phaseTrueOpt)}");
+//var phaseTrueOpt = "TTThe quick brown fox jumps over the lazy dog.aaaaaaaaaaa";
+//Console.WriteLine($" Challenger 19 ...: {Pangram.IsPangramOptmized(phaseTrueOpt)}");
 
 #endregion
+#region Challenger 20 - Valid Parentheses (Intermediate)
+//Console.WriteLine($" Challenger 20 ...: {ValidParentheses.IsValid("()[]") }");
+#endregion
+
+#region Challenger 21 - NextGreaterElement I (Intermediate)
+var ret = NextGreaterElementI.NextGreaterElement(new int[] { 4, 1, 2 }, new int[] { 1, 3, 4, 2 });  //nums1 = [4,1,2], nums2 = [1,3,4,2]
+Console.Write("Challenger 21...: " + string.Join(",", ret));
+#endregion
+
+#region Challenger 22 -  
+ Console.Write("Challenger 22...:");
+#endregion
+
 
 
 Console.ReadKey();
